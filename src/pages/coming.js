@@ -1,14 +1,15 @@
-import { Hero } from '../components/Hero'
 import { Container } from '../components/Container'
 import { Header } from '../components/Header'
 import { Footer } from '../components/Footer'
+import { Games } from '../components/Games'
+import { Portal } from '@chakra-ui/react'
 
-const Index = () => (
+const Coming = () => (
 	<Container height='100vh'>
 		<Header />
-		<Hero />
+		<Games />
 		<Footer />
 	</Container>
 )
 
-export default Index
+export default Coming
